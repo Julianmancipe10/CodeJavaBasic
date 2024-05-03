@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+public class ejercice2 {
+	public static void main(String[]args) {
+	
+	    String sueldoTrabajador = JOptionPane.showInputDialog(null, "Ingrese su sueldo:");
+	
+		int sueldo=Integer.parseInt(sueldoTrabajador); 
+	
+	 	int operacion= (int)(sueldo*03);
+	
+	 	int total= sueldo+operacion;
+	
+	 	JOptionPane.showMessageDialog(null, "Su sueldo total con un 30% de aumento es: " + total);		
+		
+		
+	} 
+	
+}

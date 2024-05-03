@@ -1,0 +1,13 @@
+
+public class Principal {
+
+	public static void main (String [] arg) 
+	{
+	int a=8;
+	
+	boolean operacion1=(a<=5);
+	
+	System.out.println(operacion1);
+	
+	}
+}

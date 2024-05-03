@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class ejercice3 {
+	
+	public static void main(String[]args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Introduce el valor para 10:");
+        int a = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 5:");
+        int b = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 6:");
+        int c = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 2:");
+        int d = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 3:");
+        int e = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 8:");
+        int f = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 12:");
+        int g = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 9:");
+        int h = scanner.nextInt();
+        
+        System.out.println("Introduce el valor para 7:");
+        int i = scanner.nextInt();
+        
+        
+        int resultado = ((a / b) + c - d + (e * f * 1) - (g / 2) + h - (i * 4));
+        
+        System.out.println("El resultado es: " + resultado);
+        
+        scanner.close();
+	
+	
+	
+	}
+		
+	
+}

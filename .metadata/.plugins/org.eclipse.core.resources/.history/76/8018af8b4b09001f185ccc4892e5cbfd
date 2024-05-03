@@ -1,0 +1,14 @@
+
+public class ejercice4 {
+
+	public static void main( String[]arg) {
+		
+		int sueldo=1000000;
+		
+		double	porcentaje=sueldo*0.3;
+		
+		double pagoTotal=sueldo+porcentaje;
+		
+	System.out.println(" sueldo es " + sueldo + " y el pago total es " + pagoTotal );
+	}
+}

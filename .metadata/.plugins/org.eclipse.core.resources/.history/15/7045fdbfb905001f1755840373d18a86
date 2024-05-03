@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class ejercice1 {
+	
+	public static void main(String[]arg) {
+	
+		JOptionPane.showMessageDialog(null,"Bienvenido Joven");
+		
+		System.exit(0);
+
+		String name="";
+		
+		name=JOptionPane.showInputDialog("Ingrese Su nombre");
+		
+		JOptionPane.showConfirmDialog(null, "Hola" + name );
+	}
+}

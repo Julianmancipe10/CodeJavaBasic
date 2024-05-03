@@ -1,0 +1,13 @@
+package ejercice1;
+
+public class ejercice2 {
+	
+	public static void main(String[]arg) {
+	
+		boolean numero2=(7>10||10>2&& 3==4);//False porque ninguno de los operadores racionales es correcto con lo valores asignados 
+		
+		System.out.println(numero2);
+		
+		
+	}
+}

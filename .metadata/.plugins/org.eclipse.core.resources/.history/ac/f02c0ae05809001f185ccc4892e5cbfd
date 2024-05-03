@@ -1,0 +1,25 @@
+import javax.swing.JOptionPane;
+
+public class ejercice1 {
+
+	public static void main(String[]args) {
+		
+
+		int precioCompra =Integer.parseInt(JOptionPane.showMessageDialog(null, "Introduce el valor de su compra"));
+	
+		double descuento = precioCompra*0.1;
+		
+		double precioFinal = precioCompra - descuento;		
+		
+		if (precioCompra >= 50000) {
+			
+			JOptionPane.showMessageDialog(null,"Su precio con descuento es " + precioCompra);
+		}else {
+			JOptionPane.showMessageDialog(null, "Su compra no tiene descuento");
+		}	
+		
+		
+
+	}
+	
+}
